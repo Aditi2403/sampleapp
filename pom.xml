@@ -25,4 +25,5 @@
       <name>Nexus Releases</name>
       <url>http://nexus.awsondemand.com:8081/repository/lillyIC-project/staging/deploy/maven2</url>
     </repository>
+  </distributionManagement>
 </project>
