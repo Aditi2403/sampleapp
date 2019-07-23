@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>moorthy</groupId>
-  <artifactId>jenkins-git-integration</artifactId>
+  <groupId>IncentiveCompensation</groupId>
+  <artifactId>samplejavaapp</artifactId>
   <packaging>war</packaging>
   <version>1</version>
   <name>jenkins Maven Webapp</name>
@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>jenkins-git-integration</finalName>
+    <finalName>samplejavaapp</finalName>
   </build>
 
   <distributionManagement>
@@ -25,16 +25,4 @@
       <name>Nexus Releases</name>
       <url>http://nexus.awsondemand.com:8081/repository/lillyIC-project/staging/deploy/maven2</url>
     </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot</name>
-      <url>http://nexus.awsondemand.com:8081/repository/lillyIC-project/snapshots</url>
-    </snapshotRepository>
-    <site>
-      <id>nexus</id>
-      <name>Nexus Sites</name>
-      <url>http://nexus.awsondemand.com:8081/repository/lillyIC-project/site/</url>
-    </site>
-  </distributionManagement>
-
 </project>
